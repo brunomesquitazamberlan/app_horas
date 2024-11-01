@@ -450,6 +450,20 @@ files = [
 tests = ["asttokens (>=2.1.0)", "coverage", "coverage-enable-subprocess", "ipython", "littleutils", "pytest", "rich"]
 
 [[package]]
+name = "firebase"
+version = "4.0.1"
+description = "Python interface to the Google's Firebase REST APIs"
+optional = false
+python-versions = "*"
+files = [
+    {file = "firebase-4.0.1-py3-none-any.whl", hash = "sha256:5d91cbd8cb572a0cd3ea404e108b20fe58548ef8bcf464c83077367835b175f4"},
+    {file = "firebase-4.0.1.tar.gz", hash = "sha256:46ddd748c2a5e064d38b76cc6c01fc6fdc5df49184d8774c1c178ba79746121c"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "firebase-admin"
 version = "6.5.0"
 description = "Firebase Admin Python SDK"
@@ -2376,4 +2390,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "cb2b2250740e201f852a30cff68da3478ade9eb671f66175b3d37c6366c7345b"
+content-hash = "8d2818265df8396907d2534620da745ebb66a63ef6538158cf172437698c2ab8"
